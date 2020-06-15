@@ -3,11 +3,8 @@ const express = require('express');
 const { json } = require('body-parser');
 const { connect } = require('mongoose');
 const api_v1 = require('./app/v1');
-const cors = require('cors');
 
 const app = express();
-
-app.use(cors());
 
 app.use(json());
 
