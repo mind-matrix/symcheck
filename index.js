@@ -11,6 +11,8 @@ app.use(cors());
 
 app.use(json());
 
+app.use(express.static('public/v1'));
+
 app.use('/v1', api_v1);
 
 connect(process.env.DB_URL, {
