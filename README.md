@@ -1,6 +1,8 @@
 # symcheck
 Symptom Checker - Designed for Torrit Innovations Internship
 
+Live Demo - https://symcheck.herokuapp.com/
+
 ## Installation
 Download the repository. Then run -
 ```bash
