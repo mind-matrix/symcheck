@@ -1,4 +1,4 @@
-# symcheck
+# SymCheck
 Symptom Checker - Designed for Torrit Innovations Internship
 
 Live Demo - https://symcheck.herokuapp.com/
@@ -26,3 +26,22 @@ To start the server -
 ```bash
 node index.js
 ```
+
+## API Access
+The API has 2 endpoints that can be accessed via. any application or API Client (like Postman or Insomnia).
+
+- `GET | https://symcheck.herokuapp.com/v1/symptoms`
+  
+  **Description**: Returns a list of all symptoms in the database.
+  
+  **Response**: Array(Symptoms) \[format: `application/json`]
+
+- `POST | https://symcheck.herokuapp.com/v1/diseases`
+  
+  **Accepts**: `application/json`
+  
+  **Parameters**: Array(Symptom IDs)
+  
+  **Description**: Returns a list of all conditions related to the given symptoms.
+  
+  **Response**: Array(Conditions) \[format: `application/json`]
