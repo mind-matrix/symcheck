@@ -1,5 +1,5 @@
 # SymCheck
-Symptom Checker - Designed for Torrit Innovations Internship
+Symptom Checker - Designed for Torit Innovations Internship
 
 Live Demo - https://symcheck.herokuapp.com/
 
