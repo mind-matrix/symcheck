@@ -30,6 +30,6 @@
   "devDependencies": {
     "cors": "^2.8.5",
     "fast-csv": "^4.3.0",
-    "mocha": "^8.0.1"
+    "mocha": "^8.4.0"
   }
 }
